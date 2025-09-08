@@ -1,0 +1,31 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 26px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.2s, color 0.2s;
+
+  &.filled {
+    background: black;
+    color: white;
+
+    &:hover {
+      background: darken(black, 10%);
+    }
+  }
+
+  &.outlined {
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+
+    &:hover {
+      background: #fff;
+      color: #3a4a5a;
+    }
+  }
+}

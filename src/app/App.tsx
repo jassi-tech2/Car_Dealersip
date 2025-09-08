@@ -1,10 +1,13 @@
-
-import LandingPage from './LandingPage';
+import Header from "../components/layout/header/index";
+import Footer from "../components/layout/footer";
+import Overview from "../components/page/overview";
 
 function App() {
   return (
     <>
-      <LandingPage />
+      <Header />
+      <Overview />
+      <Footer />
     </>
   );
 }

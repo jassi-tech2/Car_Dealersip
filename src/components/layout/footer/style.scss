@@ -1,0 +1,170 @@
+.footer {
+  background: #101322;
+  color: #fff;
+  padding: 48px 0 0 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 48px;
+    margin-bottom: 32px;
+  }
+  &__brand {
+    max-width: 340px;
+  }
+  &__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+  }
+  &__desc {
+    font-size: 1rem;
+    opacity: 0.8;
+    margin-bottom: 24px;
+  }
+  &__contacts {
+    display: flex;
+    gap: 16px;
+  }
+  &__contact-btn {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 24px;
+    padding: 10px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: background 0.2s, color 0.2s;
+    &:hover {
+      background: #fff;
+      color: #101322;
+    }
+  }
+  &__subscribe {
+    max-width: 340px;
+    h3 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+    }
+    p {
+      font-size: 0.95rem;
+      opacity: 0.8;
+      margin-bottom: 16px;
+    }
+  }
+  &__input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 12px;
+    background: #23263a;
+    color: #fff;
+    font-size: 1rem;
+  }
+  &__signup-btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: #5273f8;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 8px;
+    transition: background 0.2s;
+    &:hover {
+      background: #3451b2;
+    }
+  }
+  &__divider {
+    border: none;
+    border-top: 1px solid #23263a;
+    margin: 32px 0;
+  }
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 48px;
+    margin-bottom: 32px;
+    > div {
+      min-width: 160px;
+    }
+    h4 {
+      font-size: 1.1rem;
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 16px 0;
+      li {
+        font-size: 0.98rem;
+        margin-bottom: 8px;
+        opacity: 0.8;
+        cursor: pointer;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  &__apps {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 16px;
+    .footer__app-btn {
+      background: #23263a;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 16px;
+      font-size: 0.95rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+      transition: background 0.2s;
+      &:hover {
+        background: #5273f8;
+      }
+    }
+  }
+  &__socials {
+    display: flex;
+    gap: 16px;
+    a {
+      color: #fff;
+      font-size: 1.2rem;
+      opacity: 0.8;
+      transition: opacity 0.2s;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 48px 16px 48px;
+    font-size: 0.95rem;
+    opacity: 0.7;
+    border-top: 1px solid #23263a;
+    a {
+      color: #fff;
+      opacity: 0.8;
+      margin: 0 8px;
+      text-decoration: none;
+      &:hover {
+        opacity: 1;
+        text-decoration: underline;
+      }
+    }
+  }
+}
